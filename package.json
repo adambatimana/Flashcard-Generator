@@ -1,0 +1,29 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "App using api to make flash cards",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "Flash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adambatimana/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "flashcard",
+    "clozecard",
+    "basiccard",
+    "basic",
+    "cloze"
+  ],
+  "author": "adam batimana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adambatimana/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/adambatimana/Flashcard-Generator#readme",
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}
