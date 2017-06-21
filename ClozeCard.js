@@ -1,7 +1,7 @@
 let ClozeCard = function(text,cloze){
-  partial: ;,
-  fullText: ;,
-  cloze: ;
+  partial: cloze;,
+  fullText: text;,
+  cloze: cloze;
   // if (!cloze) {
   //   throw
   // }
