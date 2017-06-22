@@ -1,6 +1,6 @@
-let BasicCard = function(front,back){
-  front: front;,
-  back:back;
+let BasicCard = function(front, back){
+  this.front = front,
+  this.back = back
 }
 
 module.exports = BasicCard;
