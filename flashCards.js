@@ -5,31 +5,27 @@ const clozeCard = require('./ClozeCard.js')
 // ==================== Basic Card =========================
 // =========================================================
 
-let firstPres = new basicCard (
-  "who was the first president of the U.S.?",
-  "George Washington"
+let jasonTodd = new basicCard (
+  "Who is behind the Red Hood Mask?",
+  "Jason Todd"
 );
 
-//who was the first president of the US?
-console.log(firstPres.front)
-
-//George Washington
-console.log(firstPres.back)
+//WHO IS RED HOOD?
+console.log(jasonTodd.front)
+console.log(jasonTodd.back)
 
 
 // =========================================================
 // ==================== cloze Card =========================
 // =========================================================
-let firstPresCloze = new clozeCard (
-  "George Washington was the first president of the U.S.",
-  "George Washington"
+let jasonToddCloze = new clozeCard (
+  "Jason Todd is behind the Red Hood mask",
+  "Jason Todd"
 );
 
-//"George Washington"
-console.log(firstPresCloze.cloze)
-
-//"....was the first president of the US"
-console.log(firstPresCloze.partial)
-
-//"George Washington was the first president of the us"
-console.log(firstPresCloze.fullText)
+//"Jason Todd"
+console.log(jasonToddCloze.cloze)
+//"....is behind the Red Hood Mask"
+console.log(jasonToddCloze.partial)
+//"Jason Todd is behind the Red Hood mask"
+console.log(jasonToddCloze.fullText)
