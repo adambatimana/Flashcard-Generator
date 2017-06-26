@@ -5,7 +5,7 @@ const clozeCard = require('./ClozeCard.js')
 // ==================== Basic Card =========================
 // =========================================================
 
-let createBatman = new basicCard (
+let createBatman = basicCard (
   "Who created Batman comics?",
   "Bob Kane"
 );
